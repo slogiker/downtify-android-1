@@ -2,6 +2,34 @@
 <resources>
 
     <!-- Navigation -->
+    <string name="stats_title">Hallgatás</string>
+    <string name="stats_range_7">7 nap</string>
+    <string name="stats_range_30">30 nap</string>
+    <string name="stats_range_all">Teljes időszak</string>
+    <string name="stats_songs_played">Lejátszott dalok</string>
+    <string name="stats_listening_time">Hallgatási idő</string>
+    <string name="stats_artists">Előadók</string>
+    <string name="stats_top_artists">Legtöbbet hallgatott előadók</string>
+    <string name="stats_top_tracks">Legtöbbet hallgatott dalok</string>
+    <string name="stats_chart">Elmúlt 30 nap</string>
+    <string name="stats_chart_empty">Még nincs lejátszás a grafikonhoz.</string>
+    <string name="stats_recent">Nemrég hallgatott</string>
+    <string name="stats_recent_empty">Még semmi nem szólt. Az általad indított albumok, listák és előadók itt jelennek meg.</string>
+    <string name="stats_empty_title">Nincs hallgatási előzmény ezen a telefonon</string>
+    <string name="stats_empty_body">A Downtify a szervereden számolja a lejátszásokat, de nem tárolja őket ezen a telefonon, így még nincs mit összeadni. Amit mostanában hallgattál, lent látható.</string>
+    <string name="stats_nothing_in_range">Ebben az időszakban semmi nem szólt</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d lejátszás</item>
+        <item quantity="other">%d lejátszás</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">%d lejátszás az elmúlt 30 napban</item>
+        <item quantity="other">%d lejátszás az elmúlt 30 napban</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">Naponként egy oszlop. A legforgalmasabb napon %d lejátszás volt.</item>
+        <item quantity="other">Naponként egy oszlop. A legforgalmasabb napon %d lejátszás volt.</item>
+    </plurals>
     <string name="nav_home">Kezdőlap</string>
     <string name="nav_search">Keresés</string>
     <string name="nav_library">Könyvtár</string>

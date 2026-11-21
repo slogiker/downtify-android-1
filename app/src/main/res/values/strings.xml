@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="stats_title">Listening</string>
+    <string name="stats_range_7">7 days</string>
+    <string name="stats_range_30">30 days</string>
+    <string name="stats_range_all">All time</string>
+    <string name="stats_songs_played">Songs played</string>
+    <string name="stats_listening_time">Listening time</string>
+    <string name="stats_artists">Artists</string>
+    <string name="stats_top_artists">Top artists</string>
+    <string name="stats_top_tracks">Top tracks</string>
+    <string name="stats_chart">Last 30 days</string>
+    <string name="stats_chart_empty">No plays to chart yet.</string>
+    <string name="stats_recent">Recently played</string>
+    <string name="stats_recent_empty">Nothing played yet. Albums, playlists and artists you start will show up here.</string>
+    <string name="stats_empty_title">No listening history on this phone</string>
+    <string name="stats_empty_body">Downtify counts plays on your server, but doesn\'t keep them on this phone, so there\'s nothing to add up yet. What you played lately is below.</string>
+    <string name="stats_nothing_in_range">Nothing played in this range</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d play</item>
+        <item quantity="other">%d plays</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">%d play in the last 30 days</item>
+        <item quantity="other">%d plays in the last 30 days</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">One bar a day. The busiest day had %d play.</item>
+        <item quantity="other">One bar a day. The busiest day had %d plays.</item>
+    </plurals>
     <string name="app_name" translatable="false">Downtify</string>
 
     <!-- Navigation -->

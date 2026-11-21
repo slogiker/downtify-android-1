@@ -2,6 +2,34 @@
 <resources>
 
     <!-- Navigation -->
+    <string name="stats_title">Слушане</string>
+    <string name="stats_range_7">7 дни</string>
+    <string name="stats_range_30">30 дни</string>
+    <string name="stats_range_all">От началото</string>
+    <string name="stats_songs_played">Пуснати песни</string>
+    <string name="stats_listening_time">Време на слушане</string>
+    <string name="stats_artists">Изпълнители</string>
+    <string name="stats_top_artists">Топ изпълнители</string>
+    <string name="stats_top_tracks">Топ песни</string>
+    <string name="stats_chart">Последните 30 дни</string>
+    <string name="stats_chart_empty">Още няма пускания за графика.</string>
+    <string name="stats_recent">Скоро слушани</string>
+    <string name="stats_recent_empty">Още нищо не е пускано. Албумите, плейлистите и изпълнителите, които пуснеш, ще се появят тук.</string>
+    <string name="stats_empty_title">Няма история на слушане на този телефон</string>
+    <string name="stats_empty_body">Downtify брои пусканията на сървъра ти, но не ги пази на този телефон, така че още няма какво да се сумира. Какво си пускал напоследък е отдолу.</string>
+    <string name="stats_nothing_in_range">Нищо не е пускано в този период</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d пускане</item>
+        <item quantity="other">%d пускания</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">%d пускане през последните 30 дни</item>
+        <item quantity="other">%d пускания през последните 30 дни</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">Една колона на ден. Най-натовареният ден имаше %d пускане.</item>
+        <item quantity="other">Една колона на ден. Най-натовареният ден имаше %d пускания.</item>
+    </plurals>
     <string name="nav_home">Начало</string>
     <string name="nav_search">Търсене</string>
     <string name="nav_library">Библиотека</string>

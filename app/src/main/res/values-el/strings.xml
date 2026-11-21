@@ -2,6 +2,34 @@
 <resources>
 
     <!-- Navigation -->
+    <string name="stats_title">Ακροάσεις</string>
+    <string name="stats_range_7">7 ημέρες</string>
+    <string name="stats_range_30">30 ημέρες</string>
+    <string name="stats_range_all">Από την αρχή</string>
+    <string name="stats_songs_played">Τραγούδια που έπαιξαν</string>
+    <string name="stats_listening_time">Χρόνος ακρόασης</string>
+    <string name="stats_artists">Καλλιτέχνες</string>
+    <string name="stats_top_artists">Κορυφαίοι καλλιτέχνες</string>
+    <string name="stats_top_tracks">Κορυφαία κομμάτια</string>
+    <string name="stats_chart">Τελευταίες 30 ημέρες</string>
+    <string name="stats_chart_empty">Δεν υπάρχουν αναπαραγωγές για το γράφημα ακόμα.</string>
+    <string name="stats_recent">Πρόσφατες ακροάσεις</string>
+    <string name="stats_recent_empty">Δεν έχει παίξει τίποτα ακόμα. Άλμπουμ, λίστες και καλλιτέχνες που ξεκινάς θα εμφανιστούν εδώ.</string>
+    <string name="stats_empty_title">Δεν υπάρχει ιστορικό ακρόασης σε αυτό το τηλέφωνο</string>
+    <string name="stats_empty_body">Το Downtify μετράει τις αναπαραγωγές στον διακομιστή σου, αλλά δεν τις κρατάει σε αυτό το τηλέφωνο, οπότε δεν υπάρχει ακόμη τίποτα να αθροιστεί. Ό,τι έπαιξες πρόσφατα είναι παρακάτω.</string>
+    <string name="stats_nothing_in_range">Τίποτα δεν έπαιξε σε αυτό το διάστημα</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d αναπαραγωγή</item>
+        <item quantity="other">%d αναπαραγωγές</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">%d αναπαραγωγή τις τελευταίες 30 ημέρες</item>
+        <item quantity="other">%d αναπαραγωγές τις τελευταίες 30 ημέρες</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">Μία μπάρα την ημέρα. Η πιο γεμάτη μέρα είχε %d αναπαραγωγή.</item>
+        <item quantity="other">Μία μπάρα την ημέρα. Η πιο γεμάτη μέρα είχε %d αναπαραγωγές.</item>
+    </plurals>
     <string name="nav_home">Αρχική</string>
     <string name="nav_search">Αναζήτηση</string>
     <string name="nav_library">Βιβλιοθήκη</string>

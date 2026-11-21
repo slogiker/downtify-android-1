@@ -2,6 +2,37 @@
 <resources>
 
     <!-- Navigation -->
+    <string name="stats_title">Escucha</string>
+    <string name="stats_range_7">7 días</string>
+    <string name="stats_range_30">30 días</string>
+    <string name="stats_range_all">Desde el principio</string>
+    <string name="stats_songs_played">Canciones reproducidas</string>
+    <string name="stats_listening_time">Tiempo de escucha</string>
+    <string name="stats_artists">Artistas</string>
+    <string name="stats_top_artists">Artistas más escuchados</string>
+    <string name="stats_top_tracks">Canciones más escuchadas</string>
+    <string name="stats_chart">Últimos 30 días</string>
+    <string name="stats_chart_empty">Aún no hay reproducciones que mostrar en el gráfico.</string>
+    <string name="stats_recent">Escuchado recientemente</string>
+    <string name="stats_recent_empty">Aún no se ha reproducido nada. Los álbumes, listas y artistas que empieces aparecerán aquí.</string>
+    <string name="stats_empty_title">No hay historial de escucha en este teléfono</string>
+    <string name="stats_empty_body">Downtify cuenta las reproducciones en tu servidor, pero no las guarda en este teléfono, así que aún no hay nada que sumar. Lo que has escuchado últimamente está abajo.</string>
+    <string name="stats_nothing_in_range">Nada reproducido en este periodo</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d reproducción</item>
+        <item quantity="many">%d de reproducciones</item>
+        <item quantity="other">%d reproducciones</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">%d reproducción en los últimos 30 días</item>
+        <item quantity="many">%d de reproducciones en los últimos 30 días</item>
+        <item quantity="other">%d reproducciones en los últimos 30 días</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">Una barra por día. El día más activo tuvo %d reproducción.</item>
+        <item quantity="many">Una barra por día. El día más activo tuvo %d de reproducciones.</item>
+        <item quantity="other">Una barra por día. El día más activo tuvo %d reproducciones.</item>
+    </plurals>
     <string name="nav_home">Inicio</string>
     <string name="nav_search">Buscar</string>
     <string name="nav_library">Biblioteca</string>

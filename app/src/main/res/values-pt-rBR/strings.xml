@@ -2,6 +2,37 @@
 <resources>
 
     <!-- Navigation -->
+    <string name="stats_title">Audição</string>
+    <string name="stats_range_7">7 dias</string>
+    <string name="stats_range_30">30 dias</string>
+    <string name="stats_range_all">Todo o período</string>
+    <string name="stats_songs_played">Músicas tocadas</string>
+    <string name="stats_listening_time">Tempo de audição</string>
+    <string name="stats_artists">Artistas</string>
+    <string name="stats_top_artists">Artistas mais ouvidos</string>
+    <string name="stats_top_tracks">Músicas mais ouvidas</string>
+    <string name="stats_chart">Últimos 30 dias</string>
+    <string name="stats_chart_empty">Ainda não há reproduções para o gráfico.</string>
+    <string name="stats_recent">Tocados recentemente</string>
+    <string name="stats_recent_empty">Nada foi tocado ainda. Álbuns, playlists e artistas que você iniciar vão aparecer aqui.</string>
+    <string name="stats_empty_title">Não há histórico de audição neste telefone</string>
+    <string name="stats_empty_body">O Downtify conta as reproduções no seu servidor, mas não as guarda neste telefone, então ainda não há nada para somar. O que você tocou ultimamente está abaixo.</string>
+    <string name="stats_nothing_in_range">Nada tocado neste período</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d reprodução</item>
+        <item quantity="many">%d de reproduções</item>
+        <item quantity="other">%d reproduções</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">%d reprodução nos últimos 30 dias</item>
+        <item quantity="many">%d de reproduções nos últimos 30 dias</item>
+        <item quantity="other">%d reproduções nos últimos 30 dias</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">Uma barra por dia. O dia mais movimentado teve %d reprodução.</item>
+        <item quantity="many">Uma barra por dia. O dia mais movimentado teve %d de reproduções.</item>
+        <item quantity="other">Uma barra por dia. O dia mais movimentado teve %d reproduções.</item>
+    </plurals>
     <string name="nav_home">Início</string>
     <string name="nav_search">Buscar</string>
     <string name="nav_library">Biblioteca</string>

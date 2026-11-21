@@ -2,6 +2,34 @@
 <resources>
 
     <!-- Navigation -->
+    <string name="stats_title">Dinleme</string>
+    <string name="stats_range_7">7 gün</string>
+    <string name="stats_range_30">30 gün</string>
+    <string name="stats_range_all">Tüm zamanlar</string>
+    <string name="stats_songs_played">Çalınan şarkılar</string>
+    <string name="stats_listening_time">Dinleme süresi</string>
+    <string name="stats_artists">Sanatçılar</string>
+    <string name="stats_top_artists">En çok dinlenen sanatçılar</string>
+    <string name="stats_top_tracks">En çok dinlenen şarkılar</string>
+    <string name="stats_chart">Son 30 gün</string>
+    <string name="stats_chart_empty">Grafik için henüz çalma yok.</string>
+    <string name="stats_recent">Son çalınanlar</string>
+    <string name="stats_recent_empty">Henüz bir şey çalınmadı. Başlattığın albümler, çalma listeleri ve sanatçılar burada görünecek.</string>
+    <string name="stats_empty_title">Bu telefonda dinleme geçmişi yok</string>
+    <string name="stats_empty_body">Downtify çalmaları sunucunda sayar ama bu telefonda tutmaz, bu yüzden henüz toplanacak bir şey yok. Son zamanlarda çaldıkların aşağıda.</string>
+    <string name="stats_nothing_in_range">Bu aralıkta hiçbir şey çalınmadı</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d çalma</item>
+        <item quantity="other">%d çalma</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">son 30 günde %d çalma</item>
+        <item quantity="other">son 30 günde %d çalma</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">Günde bir çubuk. En yoğun gün %d çalma oldu.</item>
+        <item quantity="other">Günde bir çubuk. En yoğun gün %d çalma oldu.</item>
+    </plurals>
     <string name="nav_home">Ana sayfa</string>
     <string name="nav_search">Ara</string>
     <string name="nav_library">Kitaplık</string>

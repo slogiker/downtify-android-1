@@ -2,6 +2,37 @@
 <resources>
 
     <!-- Navigation -->
+    <string name="stats_title">Écoute</string>
+    <string name="stats_range_7">7 jours</string>
+    <string name="stats_range_30">30 jours</string>
+    <string name="stats_range_all">Depuis le début</string>
+    <string name="stats_songs_played">Titres écoutés</string>
+    <string name="stats_listening_time">Temps d’écoute</string>
+    <string name="stats_artists">Artistes</string>
+    <string name="stats_top_artists">Artistes les plus écoutés</string>
+    <string name="stats_top_tracks">Titres les plus écoutés</string>
+    <string name="stats_chart">30 derniers jours</string>
+    <string name="stats_chart_empty">Aucune écoute à afficher dans le graphique pour l’instant.</string>
+    <string name="stats_recent">Écoutés récemment</string>
+    <string name="stats_recent_empty">Rien n’a encore été écouté. Les albums, playlists et artistes que vous lancez apparaîtront ici.</string>
+    <string name="stats_empty_title">Aucun historique d’écoute sur ce téléphone</string>
+    <string name="stats_empty_body">Downtify compte les écoutes sur votre serveur, mais ne les garde pas sur ce téléphone : il n’y a donc encore rien à additionner. Ce que vous avez écouté récemment est ci-dessous.</string>
+    <string name="stats_nothing_in_range">Rien d’écouté sur cette période</string>
+    <plurals name="stats_plays">
+        <item quantity="one">%d écoute</item>
+        <item quantity="many">%d d’écoutes</item>
+        <item quantity="other">%d écoutes</item>
+    </plurals>
+    <plurals name="stats_chart_a11y">
+        <item quantity="one">%d écoute sur les 30 derniers jours</item>
+        <item quantity="many">%d d’écoutes sur les 30 derniers jours</item>
+        <item quantity="other">%d écoutes sur les 30 derniers jours</item>
+    </plurals>
+    <plurals name="stats_chart_caption">
+        <item quantity="one">Une barre par jour. Le jour le plus actif a compté %d écoute.</item>
+        <item quantity="many">Une barre par jour. Le jour le plus actif a compté %d d’écoutes.</item>
+        <item quantity="other">Une barre par jour. Le jour le plus actif a compté %d écoutes.</item>
+    </plurals>
     <string name="nav_home">Accueil</string>
     <string name="nav_search">Recherche</string>
     <string name="nav_library">Bibliothèque</string>
