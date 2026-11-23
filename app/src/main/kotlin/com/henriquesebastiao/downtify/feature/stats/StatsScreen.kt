@@ -47,8 +47,8 @@ import com.henriquesebastiao.downtify.core.designsystem.component.PageHeader
 import com.henriquesebastiao.downtify.core.designsystem.component.PhonePreviews
 import com.henriquesebastiao.downtify.core.designsystem.component.SectionCard
 import com.henriquesebastiao.downtify.core.designsystem.component.SectionTone
-import com.henriquesebastiao.downtify.core.designsystem.theme.DowntifyType
 import com.henriquesebastiao.downtify.core.designsystem.theme.DowntifyTheme
+import com.henriquesebastiao.downtify.core.designsystem.theme.DowntifyType
 import com.henriquesebastiao.downtify.core.designsystem.theme.ListStyle
 import com.henriquesebastiao.downtify.core.designsystem.theme.Spacing
 import com.henriquesebastiao.downtify.core.model.DailyPlays
@@ -66,11 +66,7 @@ import java.time.Instant
 import java.time.temporal.ChronoUnit
 
 @Composable
-fun StatsRoute(
-    onBack: () -> Unit,
-    modifier: Modifier = Modifier,
-    viewModel: StatsViewModel = hiltViewModel(),
-) {
+fun StatsRoute(onBack: () -> Unit, modifier: Modifier = Modifier, viewModel: StatsViewModel = hiltViewModel()) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     StatsScreen(state = state, onRange = viewModel::selectRange, modifier = modifier, onBack = onBack)
 }

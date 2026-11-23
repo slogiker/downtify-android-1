@@ -4,6 +4,7 @@ import androidx.compose.ui.test.assertIsNotSelected
 import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -81,8 +82,9 @@ class StatsScreenTest {
         compose.onNodeWithText("Listening time").assertExists()
         compose.onNodeWithText("Artists").assertExists()
         compose.onNodeWithText("Top artists").assertExists()
-        compose.onNodeWithText("Nora Vale").assertExists()
-        compose.onNodeWithText("2 plays").assertExists()
+        // The artist shows in the top list and again under recently played.
+        compose.onAllNodesWithText("Nora Vale").onFirst().assertExists()
+        compose.onAllNodesWithText("2 plays").onFirst().assertExists()
     }
 
     @Test
